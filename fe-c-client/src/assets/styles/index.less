@@ -1,0 +1,38 @@
+@import '~antd/dist/antd.less';
+.header-notLogin, .header-logined {
+    .ant-row {
+        height: 50px;
+        // background-color: pink;
+        line-height: 50px;
+    }  
+}
+.header-logined {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    background-color: #87D068;
+    opacity: .8;
+    border-radius: 15px;
+}
+.currentTime {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.go-carousel {
+    .ant-carousel {
+        width: 200px;
+        margin-left: 50%;
+        transform: translateX(-100px);
+        .slick-list {
+            border-radius: 10px;
+        }
+    }
+}
+.wrap {
+    width: 90%;
+    margin: 50px auto;
+    // background-color: pink;
+    overflow: hidden;
+}

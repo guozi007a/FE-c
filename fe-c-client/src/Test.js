@@ -1,0 +1,2 @@
+let h = new Date().getFullYear() + '-' +new Date().getMonth() + '-' + new Date().getDate() + ' ' + new Date().getHours() + ':' + new Date().getUTCMinutes() + ':' + new Date().getSeconds()
+console.log(h)
